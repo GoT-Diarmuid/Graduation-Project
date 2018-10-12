@@ -18,7 +18,7 @@ class main_class {
     function db_link() {
          $servername = "localhost";
          $dbusername = "root";
-         $dbpassword = "";
+         $dbpassword = "12345zxc";
          $dbname = "project";
         return $db = new \PDO("mysql:dbname=$dbname;host=$servername", $dbusername, $dbpassword);
     }

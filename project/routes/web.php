@@ -19,10 +19,17 @@ Route::get('/join_student','PageControllers@join_student');
 Route::get('/team','PageControllers@team');
 Route::get('/logout','PageControllers@logout');
 Route::get('/score','PageControllers@score');
+Route::get('/upload','PageControllers@submit_project_pictures');
 
 
 Route::post('/ver','PageControllers@ver');
 Route::post('/team ver','PageControllers@team_ver');
 Route::post('/join_ver','PageControllers@join_ver');
 
+//upload function
+Route::get('/uploadfile','UploadFileController@index');
+Route::post('/uploadfile','UploadFileController@showUploadFile');
+
+//profile function
+Route::get('/profile','PageControllers@profile');
 

@@ -140,4 +140,8 @@ class PageControllers extends Controller
         return view('pages.score',compact('db'))->with('title',$title);
     }
 
+    public function submit_project_pictures(){
+        $title='Upload';
+        return view('pages.submit_project_pictures')->with('title',$title);
+    }
 }

@@ -47,7 +47,7 @@
             @case(1)
                 <a href="/team"class="btn btn-primary btn-lg disabled">Team</button></a>
                 <a href="/score"class="btn btn-primary btn-lg disabled">score</a>
-                <a href="project_upload"class="btn btn-primary btn-lg ">project upload</a>
+                <a href="/upload"class="btn btn-primary btn-lg ">project upload</a>
                 @break
         @endswitch
 
